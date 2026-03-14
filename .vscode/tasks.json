@@ -1,0 +1,37 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe 多文件编译",
+            "command": "C:\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                
+                "${workspaceFolder}\\Core\\main.c",
+                "${workspaceFolder}\\Task\\LinearList.c",
+                "${workspaceFolder}\\Homework\\First_Homework_First_Question.c",
+                "${workspaceFolder}\\Homework\\First_Homework_Second_Question.c",
+                
+                "-I", "${workspaceFolder}\\Core",
+                "-I", "${workspaceFolder}\\Task",
+                "-I", "${workspaceFolder}\\Homework",
+                
+                "-o",
+                "${workspaceFolder}\\my_program.exe"
+            ],
+            "options": {
+                "cwd": "C:\\mingw64\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "自定义的C语言多文件编译任务"
+        }
+    ],
+    "version": "2.0.0"
+}
