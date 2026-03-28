@@ -1,5 +1,5 @@
-#ifndef _LinearList_H_
-#define _LinearList_H_
+#ifndef _LINEARLIST_H_
+#define _LINEARLIST_H_
 
 #include "stdio.h"
 
